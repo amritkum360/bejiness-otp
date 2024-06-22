@@ -1,3 +1,4 @@
+import "./Send.css"
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -125,6 +126,7 @@ const Verify = () => {
 
           <div className="otp-details">
             <button onClick={() => resendOTP()} disabled={otpTime > 0}>
+              <div></div>
               <span>{isButtonDisabled ? "Sending..." : "resend"}</span>
             </button>
           </div>

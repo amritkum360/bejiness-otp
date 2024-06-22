@@ -5,8 +5,8 @@ const Toast = () => {
     <div>
       <Toaster
         toastOptions={{
-          duration: 3000,
-          position: "right-bottom",
+          duration: 5000,
+          position: "top-center",
           success: {
             style: {
               background: "lightblue",
